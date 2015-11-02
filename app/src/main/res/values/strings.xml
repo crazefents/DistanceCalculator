@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- en-US  -->
+    <string name="app_name">Distance Calculator</string>
+    <string name="savespots">Saved spots:</string>
+    <string name="spot1">Spot 1</string>
+    <string name="spot2">Spot 2</string>
+    <string name="spot3">Spot 3</string>
+    <string name="metros">Meters</string>
+    <string name="distance">Distance: </string>
+    <string name="start">Start measurement</string>
+    <string name="stop">Stop measurement</string>
+    <string name="margemErro">Error margin:</string>
+    <string name="rate_title">Rate this app!</string>
+    <string name="rate_explanation">Did you enjoy the app?\nTake a time to rate and help us!</string>
+    <string name="rate_now">Rate now!</string>
+    <string name="rate_later">Later</string>
+    <string name="rate_never">No, thanks</string>
+    <string name="end">Reached the end.</string>
+    <string name="error">Error. Check if your GPS is on and wait a few seconds.</string>
+    <string name="iniciar">Start location saved successfully. Go to the next spot.</string>
+    <string name="localsalvo">Location saved!</string>
+    <string name="editarnome">Edit spots names</string>
+    <string name="errorSalvar">Names can not be empty.</string>
+    <string name="errorMuitos">Names can have max 6 letters.</string>
+    <string name="salvoSucesso">Saved successfully.</string>
+    <string name="descexp">The app is focused on measuring the smallest distance between two spots using your GPS location. NOTE: If you\'re GPS is on but is not detected, please Close the app and open it again.\nSee the available ways to do it:</string>
+    <string name="titnormal">Common measurement:</string>
+    <string name="descnormal">Simply press the "start" button on the place you want to start and then press "stop" after moving to the second spot. There could be a small variation. \nWe recommend you to use your GPS instead of Wi-Fi or cellphone network location.</string>
+    <string name="titlocal">Spots saving:</string>
+    <string name="desclocal">You can also save spots for future use. Press "save" under the desired Spot to save a place. To see the distance from a saved place, just tap over the spot name (Ex. "spot1" or the name you have chosen) and the distance will be shown.</string>
+    <string name="howto">How to use?</string>
+    <string name="needhelp">Need any help? Have a suggestion or a comment?</string>
+    <string name="helptext">Feel free to send us an email, we\'ll always reply and learn with your words.</string>
+    <string name="salvarnomes">Save Names</string>
+
+
+</resources>

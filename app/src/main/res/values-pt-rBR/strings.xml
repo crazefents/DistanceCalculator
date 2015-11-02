@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- pt - BR -->
+    <string name="app_name">Medidor de Distância</string>
+    <string name="savespots">Posições:</string>
+    <string name="spot1">Pos. 1</string>
+    <string name="spot2">Pos. 2</string>
+    <string name="spot3">Pos. 3</string>
+    <string name="metros">Metros</string>
+    <string name="distance">Distância:</string>
+    <string name="start">Iniciar medição</string>
+    <string name="stop">Parar medição</string>
+    <string name="margemErro">Margem de erro:</string>
+    <string name="rate_title">Avalie o app!</string>
+    <string name="rate_explanation">Você gostou do aplicativo?\nDeixe sua avaliação na Play Store!</string>
+    <string name="rate_now">Avaliar!</string>
+    <string name="rate_later">Mais tarde</string>
+    <string name="rate_never">Não, Obrigado.</string>
+    <string name="end">Distância calculada.</string>
+    <string name="error">Erro. Verifique se o GPS está ligado e tente em alguns segundos.</string>
+    <string name="iniciar">Início salvo com sucesso. Vá até o próximo ponto.</string>
+    <string name="localsalvo">Local salvo!</string>
+    <string name="editarnome">Editar nomes dos locais</string>
+    <string name="errorSalvar">Nomes não podem ficar vazios.</string>
+    <string name="errorMuitos">Max. 6 letras por nome.</string>
+    <string name="salvoSucesso">Salvo com sucesso.</string>
+    <string name="descexp">O objetivo do aplicativo é medir a distância mais curta entre dois pontos usando a localização do aparelho. NOTA: caso seu GPS esteja ligado mas não reconhecido, feche o app e abra-o novamente.\nVeja as formas disponíveis:</string>
+    <string name="titnormal">Medição comum:</string>
+    <string name="descnormal">A medição normal é operada pelos botões "iniciar medição" e "parar medição". Ao clicar para iniciar, o local em que você está será salvo. Movimente-se e pressione parar para finalizar, salvando o local em que você estiver no momento e mostrando a distância. A distância é aproximada. \nSugerimos que utilize a localização do GPS ao invés de redes Wi-Fi ou de telefonia, aumentando a precisão.</string>
+    <string name="titlocal">Locais salvos:</string>
+    <string name="desclocal">Os botões de locais são utilizados para salvar localizações para uso futuro. Para salvar, basta clicar em "save" abaixo do botão desejado. Para medir a distância depois, clique no nome do local (Ex. "Pos.1" ou nome escolhido) e a distância será apresentada na tela.</string>
+    <string name="howto">Como usar?</string>
+    <string name="needhelp">Precisa de ajuda? Tem uma sugestão ou comentário?</string>
+    <string name="helptext">Fique a vontade para nos enviar um email. Sempre responderemos e iremos aprender com suas palavras.</string>
+    <string name="salvarnomes">Salvar nomes</string>
+
+</resources>

@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="@string/metros"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="@string/distance"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffB6FF00"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffFF3200"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/spot3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="9dp"
+        android:background="#ffB09BCC"
+        android:text="@string/spot3" />
+
+    <Button
+        android:id="@+id/spot2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spot3"
+        android:layout_alignBottom="@+id/spot3"
+        android:layout_marginRight="9dp"
+        android:layout_toLeftOf="@+id/spot3"
+        android:background="#ffB09BCC"
+        android:text="@string/spot2" />
+
+    <Button
+        android:id="@+id/spot1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spot2"
+        android:layout_alignBottom="@+id/spot2"
+        android:layout_marginRight="9dp"
+        android:layout_toLeftOf="@+id/spot2"
+        android:background="#ffB09BCC"
+        android:text="@string/spot1" />
+
+    <Button
+        android:id="@+id/save1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/spot1"
+        android:layout_below="@+id/spot1"
+        android:layout_marginTop="3dp"
+        android:background="#80B09BCc"
+        android:text="Save 1" />
+
+    <Button
+        android:id="@+id/save2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/save1"
+        android:layout_alignBottom="@+id/save1"
+        android:layout_alignLeft="@+id/spot2"
+        android:layout_marginTop="3dp"
+        android:background="#80B09BCc"
+        android:text="Save 2" />
+
+    <Button
+        android:id="@+id/save3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/save2"
+        android:layout_alignBottom="@+id/save2"
+        android:layout_alignLeft="@+id/spot3"
+        android:layout_marginTop="3dp"
+        android:background="#80B09BCc"
+        android:text="Save 3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="@string/margemErro"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/howtouse"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/save1"
+        android:layout_alignLeft="@+id/textView2"
+        android:background="#80B09BCc"
+        android:text="@string/howto" />
+
+    <Button
+        android:id="@+id/editarnomes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/save1"
+        android:layout_alignLeft="@+id/howtouse"
+        android:layout_alignRight="@+id/howtouse"
+        android:layout_below="@+id/howtouse"
+        android:layout_marginTop="3dp"
+        android:background="#80B09BCc"
+        android:text="@string/editarnome" />
+
+    <TextView
+        android:id="@+id/margem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="@string/metros"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="19sp" />
+
+</RelativeLayout>
